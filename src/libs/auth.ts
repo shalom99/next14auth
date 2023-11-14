@@ -20,7 +20,10 @@ export const config = {
         return user;
       },
     }),
-  ], // rest of your config
+  ], 
+  secret: process.env.SECRET,
+
+  // rest of your config
 } satisfies NextAuthOptions
 
 // Use it in server contexts
