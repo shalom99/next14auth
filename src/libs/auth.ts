@@ -21,7 +21,7 @@ export const config = {
       },
     }),
   ], 
-  secret: process.env.SECRET,
+
 
   // rest of your config
 } satisfies NextAuthOptions
